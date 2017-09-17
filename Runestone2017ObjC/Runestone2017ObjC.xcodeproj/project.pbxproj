@@ -21,6 +21,33 @@
 		B5251D9A1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */; };
 		B5251D9B1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */; };
 		B5251D9C1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */; };
+		B5251D9F1F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D9E1F6EBE3F007434C7 /* MenuInstructionsViewController.m */; };
+		B5251DA01F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D9E1F6EBE3F007434C7 /* MenuInstructionsViewController.m */; };
+		B5251DA11F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D9E1F6EBE3F007434C7 /* MenuInstructionsViewController.m */; };
+		B5251DAE1F6ECCED007434C7 /* Instructions-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA71F6ECCED007434C7 /* Instructions-1.png */; };
+		B5251DAF1F6ECCED007434C7 /* Instructions-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA71F6ECCED007434C7 /* Instructions-1.png */; };
+		B5251DB01F6ECCED007434C7 /* Instructions-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA71F6ECCED007434C7 /* Instructions-1.png */; };
+		B5251DB11F6ECCED007434C7 /* Instructions-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA81F6ECCED007434C7 /* Instructions-2.png */; };
+		B5251DB21F6ECCED007434C7 /* Instructions-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA81F6ECCED007434C7 /* Instructions-2.png */; };
+		B5251DB31F6ECCED007434C7 /* Instructions-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA81F6ECCED007434C7 /* Instructions-2.png */; };
+		B5251DB41F6ECCED007434C7 /* Instructions-3.5.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA91F6ECCED007434C7 /* Instructions-3.5.png */; };
+		B5251DB51F6ECCED007434C7 /* Instructions-3.5.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA91F6ECCED007434C7 /* Instructions-3.5.png */; };
+		B5251DB61F6ECCED007434C7 /* Instructions-3.5.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DA91F6ECCED007434C7 /* Instructions-3.5.png */; };
+		B5251DB71F6ECCED007434C7 /* Instructions-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAA1F6ECCED007434C7 /* Instructions-3.png */; };
+		B5251DB81F6ECCED007434C7 /* Instructions-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAA1F6ECCED007434C7 /* Instructions-3.png */; };
+		B5251DB91F6ECCED007434C7 /* Instructions-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAA1F6ECCED007434C7 /* Instructions-3.png */; };
+		B5251DBA1F6ECCED007434C7 /* Instructions-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAB1F6ECCED007434C7 /* Instructions-4.png */; };
+		B5251DBB1F6ECCED007434C7 /* Instructions-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAB1F6ECCED007434C7 /* Instructions-4.png */; };
+		B5251DBC1F6ECCED007434C7 /* Instructions-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAB1F6ECCED007434C7 /* Instructions-4.png */; };
+		B5251DBD1F6ECCED007434C7 /* Instructions-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAC1F6ECCED007434C7 /* Instructions-5.png */; };
+		B5251DBE1F6ECCED007434C7 /* Instructions-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAC1F6ECCED007434C7 /* Instructions-5.png */; };
+		B5251DBF1F6ECCED007434C7 /* Instructions-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAC1F6ECCED007434C7 /* Instructions-5.png */; };
+		B5251DC01F6ECCED007434C7 /* Instructions-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAD1F6ECCED007434C7 /* Instructions-6.png */; };
+		B5251DC11F6ECCED007434C7 /* Instructions-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAD1F6ECCED007434C7 /* Instructions-6.png */; };
+		B5251DC21F6ECCED007434C7 /* Instructions-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B5251DAD1F6ECCED007434C7 /* Instructions-6.png */; };
+		B5251DCA1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */; };
+		B5251DCB1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */; };
+		B5251DCC1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +90,16 @@
 		B5251D871F6DCCA7007434C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5251D981F6EB3D7007434C7 /* MenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuMainViewController.h; sourceTree = "<group>"; };
 		B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuMainViewController.m; sourceTree = "<group>"; };
+		B5251D9D1F6EBE3F007434C7 /* MenuInstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuInstructionsViewController.h; sourceTree = "<group>"; };
+		B5251D9E1F6EBE3F007434C7 /* MenuInstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuInstructionsViewController.m; sourceTree = "<group>"; };
+		B5251DA71F6ECCED007434C7 /* Instructions-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructions-1.png"; sourceTree = "<group>"; };
+		B5251DA81F6ECCED007434C7 /* Instructions-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructions-2.png"; sourceTree = "<group>"; };
+		B5251DA91F6ECCED007434C7 /* Instructions-3.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructions-3.5.png"; sourceTree = "<group>"; };
+		B5251DAA1F6ECCED007434C7 /* Instructions-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructions-3.png"; sourceTree = "<group>"; };
+		B5251DAB1F6ECCED007434C7 /* Instructions-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructions-4.png"; sourceTree = "<group>"; };
+		B5251DAC1F6ECCED007434C7 /* Instructions-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructions-5.png"; sourceTree = "<group>"; };
+		B5251DAD1F6ECCED007434C7 /* Instructions-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructions-6.png"; sourceTree = "<group>"; };
+		B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InstructionsStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,12 +158,19 @@
 				B5251D641F6DCCA7007434C7 /* GameScene.m */,
 				B5251D661F6DCCA7007434C7 /* GameViewController.h */,
 				B5251D671F6DCCA7007434C7 /* GameViewController.m */,
-				B5251D981F6EB3D7007434C7 /* MenuMainViewController.h */,
-				B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */,
+				B5251DA21F6EBE46007434C7 /* Menus */,
 				B5251D691F6DCCA7007434C7 /* Main.storyboard */,
+				B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */,
 				B5251D6C1F6DCCA7007434C7 /* Assets.xcassets */,
 				B5251D6E1F6DCCA7007434C7 /* LaunchScreen.storyboard */,
 				B5251D711F6DCCA7007434C7 /* Info.plist */,
+				B5251DA71F6ECCED007434C7 /* Instructions-1.png */,
+				B5251DA81F6ECCED007434C7 /* Instructions-2.png */,
+				B5251DA91F6ECCED007434C7 /* Instructions-3.5.png */,
+				B5251DAA1F6ECCED007434C7 /* Instructions-3.png */,
+				B5251DAB1F6ECCED007434C7 /* Instructions-4.png */,
+				B5251DAC1F6ECCED007434C7 /* Instructions-5.png */,
+				B5251DAD1F6ECCED007434C7 /* Instructions-6.png */,
 				B5251D591F6DCCA7007434C7 /* Supporting Files */,
 			);
 			path = Runestone2017ObjC;
@@ -156,6 +200,17 @@
 				B5251D871F6DCCA7007434C7 /* Info.plist */,
 			);
 			path = Runestone2017ObjCUITests;
+			sourceTree = "<group>";
+		};
+		B5251DA21F6EBE46007434C7 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				B5251D981F6EB3D7007434C7 /* MenuMainViewController.h */,
+				B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */,
+				B5251D9D1F6EBE3F007434C7 /* MenuInstructionsViewController.h */,
+				B5251D9E1F6EBE3F007434C7 /* MenuInstructionsViewController.m */,
+			);
+			name = Menus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,10 +319,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251DBD1F6ECCED007434C7 /* Instructions-5.png in Resources */,
+				B5251DAE1F6ECCED007434C7 /* Instructions-1.png in Resources */,
+				B5251DB11F6ECCED007434C7 /* Instructions-2.png in Resources */,
 				B5251D6B1F6DCCA7007434C7 /* Main.storyboard in Resources */,
 				B5251D601F6DCCA7007434C7 /* GameScene.sks in Resources */,
 				B5251D6D1F6DCCA7007434C7 /* Assets.xcassets in Resources */,
+				B5251DC01F6ECCED007434C7 /* Instructions-6.png in Resources */,
+				B5251DBA1F6ECCED007434C7 /* Instructions-4.png in Resources */,
+				B5251DB71F6ECCED007434C7 /* Instructions-3.png in Resources */,
 				B5251D701F6DCCA7007434C7 /* LaunchScreen.storyboard in Resources */,
+				B5251DB41F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
+				B5251DCA1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
 				B5251D621F6DCCA7007434C7 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +339,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251DB21F6ECCED007434C7 /* Instructions-2.png in Resources */,
+				B5251DBB1F6ECCED007434C7 /* Instructions-4.png in Resources */,
+				B5251DBE1F6ECCED007434C7 /* Instructions-5.png in Resources */,
+				B5251DB81F6ECCED007434C7 /* Instructions-3.png in Resources */,
+				B5251DAF1F6ECCED007434C7 /* Instructions-1.png in Resources */,
+				B5251DC11F6ECCED007434C7 /* Instructions-6.png in Resources */,
+				B5251DCB1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
+				B5251DB51F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +354,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251DB31F6ECCED007434C7 /* Instructions-2.png in Resources */,
+				B5251DBC1F6ECCED007434C7 /* Instructions-4.png in Resources */,
+				B5251DBF1F6ECCED007434C7 /* Instructions-5.png in Resources */,
+				B5251DB91F6ECCED007434C7 /* Instructions-3.png in Resources */,
+				B5251DB01F6ECCED007434C7 /* Instructions-1.png in Resources */,
+				B5251DC21F6ECCED007434C7 /* Instructions-6.png in Resources */,
+				B5251DCC1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
+				B5251DB61F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251D9F1F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D681F6DCCA7007434C7 /* GameViewController.m in Sources */,
 				B5251D5E1F6DCCA7007434C7 /* AppDelegate.m in Sources */,
 				B5251D9A1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
@@ -305,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251DA01F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D9B1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B5251D7B1F6DCCA7007434C7 /* Runestone2017ObjCTests.m in Sources */,
 			);
@@ -314,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251DA11F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D9C1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B5251D861F6DCCA7007434C7 /* Runestone2017ObjCUITests.m in Sources */,
 			);

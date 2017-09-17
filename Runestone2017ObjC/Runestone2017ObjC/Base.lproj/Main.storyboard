@@ -31,8 +31,8 @@
                                     <constraint firstAttribute="width" secondItem="oDT-Bk-cRH" secondAttribute="height" multiplier="75:113" id="l2F-dA-K7o"/>
                                 </constraints>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="29" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-N3-aqO">
-                                <rect key="frame" x="108" y="229" width="159" height="353"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="29" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-N3-aqO">
+                                <rect key="frame" x="108" y="229" width="159" height="290"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="159" id="SpM-lZ-tXP"/>
@@ -161,6 +161,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="sbJ-yc-hXu" kind="show" id="82p-da-Eh3"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Achievements" textLabel="cdR-UX-jGn" style="IBUITableViewCellStyleDefault" id="ADs-8d-zdO">
                                         <rect key="frame" x="0.0" y="202" width="159" height="29"/>
@@ -181,6 +184,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="cTi-mJ-ksb" kind="show" id="ErX-xO-34y"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Credits" textLabel="N6E-Bf-Eib" style="IBUITableViewCellStyleDefault" id="fgt-Wk-lmL">
                                         <rect key="frame" x="0.0" y="231" width="159" height="29"/>
@@ -201,6 +207,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="PgS-61-2Pf" kind="show" id="uGP-rn-FBc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>
@@ -230,7 +239,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SEQ-c1-8Eg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-607.20000000000005" y="176.76161919040482"/>
+            <point key="canvasLocation" x="-892" y="392.65367316341832"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IzE-JY-tbI">
+            <objects>
+                <viewController id="PgS-61-2Pf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dNb-Lo-Is9"/>
+                        <viewControllerLayoutGuide type="bottom" id="lly-Ui-5pg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oIC-hw-Aij">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R8i-gX-Bbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-468" y="1283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fFq-8r-53P">
+            <objects>
+                <viewController id="cTi-mJ-ksb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tJF-Uj-3fo"/>
+                        <viewControllerLayoutGuide type="bottom" id="x4I-Mj-14F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BxA-RF-OXh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="we6-yo-1GM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="958"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oiM-92-QSe">
+            <objects>
+                <viewController id="sbJ-yc-hXu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8br-Ul-ZhM"/>
+                        <viewControllerLayoutGuide type="bottom" id="H81-9g-IM8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j0m-H2-Kkv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3a-hL-wjJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614" y="314"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
@@ -243,16 +306,50 @@
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Button backgrounds" translatesAutoresizingMaskIntoConstraints="NO" id="NcZ-G1-FWm">
+                                <rect key="frame" x="0.0" y="571" width="375" height="96"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="-3" translatesAutoresizingMaskIntoConstraints="NO" id="xh9-0W-Gu5">
+                                <rect key="frame" x="0.0" y="571" width="375" height="96"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vI0-AN-RX5" userLabel="Hint">
+                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="96"/>
+                                        <state key="normal" image="button hint up"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SF-lZ-6rE" userLabel="Zap">
+                                        <rect key="frame" x="124.5" y="0.0" width="128" height="96"/>
+                                        <state key="normal" image="button zap up"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sj-jh-mqp" userLabel="Cheat">
+                                        <rect key="frame" x="249.5" y="0.0" width="125.5" height="96"/>
+                                        <state key="normal" image="button cheat up"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xh9-0W-Gu5" firstAttribute="top" secondItem="NcZ-G1-FWm" secondAttribute="top" id="1pK-jE-Eds"/>
+                            <constraint firstItem="xh9-0W-Gu5" firstAttribute="bottom" secondItem="qHh-Mt-9TT" secondAttribute="top" id="7fd-Bw-FuZ"/>
+                            <constraint firstItem="xh9-0W-Gu5" firstAttribute="leading" secondItem="NcZ-G1-FWm" secondAttribute="leading" id="Z3g-bt-lsr"/>
+                            <constraint firstAttribute="trailing" secondItem="xh9-0W-Gu5" secondAttribute="trailing" id="kgD-5l-cve"/>
+                            <constraint firstItem="xh9-0W-Gu5" firstAttribute="trailing" secondItem="NcZ-G1-FWm" secondAttribute="trailing" id="rmH-gl-Rhc"/>
+                            <constraint firstItem="xh9-0W-Gu5" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leading" id="zbG-CD-tPx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="350" y="137"/>
+            <point key="canvasLocation" x="-47.200000000000003" y="-441.22938530734638"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Button backgrounds" width="384" height="96"/>
         <image name="MenuBackgroundLayer0" width="384" height="512"/>
         <image name="MenuBackgroundLayer1" width="384" height="512"/>
+        <image name="button cheat up" width="96" height="96"/>
+        <image name="button hint up" width="96" height="96"/>
+        <image name="button zap up" width="96" height="96"/>
     </resources>
 </document>

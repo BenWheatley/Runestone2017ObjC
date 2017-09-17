@@ -7,6 +7,7 @@
 //
 
 #import "MenuMainViewController.h"
+#import "MenuInstructionsViewController.h"
 
 @interface MenuMainViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *menu;
@@ -48,7 +49,7 @@
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	void (^block)(void) = @[	 ^{	return;	},
 								 ^{	[self nextDifficulty];	},
-								 ^{	return;	},
+								 ^{	[self showInstructions];	},
 								 ^{	[self toggleSound];	},
 								 ^{	[self toggleMusic];	},
 								 ^{	return;	},
@@ -61,6 +62,20 @@
 #warning stub method
 }
 
+-(void) showInstructions {
+	MenuInstructionsViewController * viewController = [[UIStoryboard storyboardWithName:@"InstructionsStoryboard" bundle:nil] instantiateViewControllerWithIdentifier:@"MenuInstructionsViewController"];
+	[self addChildViewController:viewController];
+	viewController.view.alpha = 0;
+	[self.view addSubview:viewController.view];
+	[viewController didMoveToParentViewController:self];
+	viewController.view.bounds = CGRectMake(0, 0, 320, 480);
+	viewController.view.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
+	
+	[UIView animateWithDuration:0.5 animations:^{
+		viewController.view.alpha = 1;
+	}];
+}
+
 -(void) toggleSound {
 #warning stub method
 }
@@ -69,7 +84,7 @@
 #warning stub method
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -77,6 +92,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end
