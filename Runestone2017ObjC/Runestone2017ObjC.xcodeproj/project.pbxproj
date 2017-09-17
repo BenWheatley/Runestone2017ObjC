@@ -51,6 +51,15 @@
 		B5251DCF1F6F0909007434C7 /* MenuCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251DCE1F6F0909007434C7 /* MenuCreditsViewController.m */; };
 		B5251DD01F6F0909007434C7 /* MenuCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251DCE1F6F0909007434C7 /* MenuCreditsViewController.m */; };
 		B5251DD11F6F0909007434C7 /* MenuCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251DCE1F6F0909007434C7 /* MenuCreditsViewController.m */; };
+		B5251DD31F6F2643007434C7 /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DD21F6F2643007434C7 /* SparkParticle.sks */; };
+		B5251DD41F6F2643007434C7 /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DD21F6F2643007434C7 /* SparkParticle.sks */; };
+		B5251DD51F6F2643007434C7 /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DD21F6F2643007434C7 /* SparkParticle.sks */; };
+		B5251DD71F6F2854007434C7 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DD61F6F2854007434C7 /* FireParticle.sks */; };
+		B5251DD81F6F2854007434C7 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DD61F6F2854007434C7 /* FireParticle.sks */; };
+		B5251DD91F6F2854007434C7 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DD61F6F2854007434C7 /* FireParticle.sks */; };
+		B5251DDB1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
+		B5251DDC1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
+		B5251DDD1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +114,9 @@
 		B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InstructionsStoryboard.storyboard; sourceTree = "<group>"; };
 		B5251DCD1F6F0909007434C7 /* MenuCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCreditsViewController.h; sourceTree = "<group>"; };
 		B5251DCE1F6F0909007434C7 /* MenuCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCreditsViewController.m; sourceTree = "<group>"; };
+		B5251DD21F6F2643007434C7 /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
+		B5251DD61F6F2854007434C7 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
+		B5251DDA1F6F2870007434C7 /* MagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +171,9 @@
 				B5251D5D1F6DCCA7007434C7 /* AppDelegate.m */,
 				B5251D5F1F6DCCA7007434C7 /* GameScene.sks */,
 				B5251D611F6DCCA7007434C7 /* Actions.sks */,
+				B5251DD21F6F2643007434C7 /* SparkParticle.sks */,
+				B5251DD61F6F2854007434C7 /* FireParticle.sks */,
+				B5251DDA1F6F2870007434C7 /* MagicParticle.sks */,
 				B5251D631F6DCCA7007434C7 /* GameScene.h */,
 				B5251D641F6DCCA7007434C7 /* GameScene.m */,
 				B5251D661F6DCCA7007434C7 /* GameViewController.h */,
@@ -328,11 +343,14 @@
 			files = (
 				B5251DBD1F6ECCED007434C7 /* Instructions-5.png in Resources */,
 				B5251DAE1F6ECCED007434C7 /* Instructions-1.png in Resources */,
+				B5251DD71F6F2854007434C7 /* FireParticle.sks in Resources */,
 				B5251DB11F6ECCED007434C7 /* Instructions-2.png in Resources */,
 				B5251D6B1F6DCCA7007434C7 /* Main.storyboard in Resources */,
+				B5251DDB1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251D601F6DCCA7007434C7 /* GameScene.sks in Resources */,
 				B5251D6D1F6DCCA7007434C7 /* Assets.xcassets in Resources */,
 				B5251DC01F6ECCED007434C7 /* Instructions-6.png in Resources */,
+				B5251DD31F6F2643007434C7 /* SparkParticle.sks in Resources */,
 				B5251DBA1F6ECCED007434C7 /* Instructions-4.png in Resources */,
 				B5251DB71F6ECCED007434C7 /* Instructions-3.png in Resources */,
 				B5251D701F6DCCA7007434C7 /* LaunchScreen.storyboard in Resources */,
@@ -353,6 +371,9 @@
 				B5251DAF1F6ECCED007434C7 /* Instructions-1.png in Resources */,
 				B5251DC11F6ECCED007434C7 /* Instructions-6.png in Resources */,
 				B5251DCB1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
+				B5251DD81F6F2854007434C7 /* FireParticle.sks in Resources */,
+				B5251DD41F6F2643007434C7 /* SparkParticle.sks in Resources */,
+				B5251DDC1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251DB51F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +389,9 @@
 				B5251DB01F6ECCED007434C7 /* Instructions-1.png in Resources */,
 				B5251DC21F6ECCED007434C7 /* Instructions-6.png in Resources */,
 				B5251DCC1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
+				B5251DD91F6F2854007434C7 /* FireParticle.sks in Resources */,
+				B5251DD51F6F2643007434C7 /* SparkParticle.sks in Resources */,
+				B5251DDD1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251DB61F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
