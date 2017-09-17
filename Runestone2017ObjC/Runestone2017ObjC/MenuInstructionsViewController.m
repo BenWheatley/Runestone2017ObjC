@@ -21,8 +21,6 @@
     [super viewDidLoad];
 	
 	instructions.contentSize = CGSizeMake(320, 1417); // TODO: do this from interface builder: https://stackoverflow.com/a/10360710/3632488
-	NSLog(@"instructions.contentSize = %@", CGSizeCreateDictionaryRepresentation(instructions.contentSize));
-	NSLog(@"instructions.bounds = %@", CGRectCreateDictionaryRepresentation(instructions.bounds));
 }
 
 - (IBAction)close:(id)sender {
