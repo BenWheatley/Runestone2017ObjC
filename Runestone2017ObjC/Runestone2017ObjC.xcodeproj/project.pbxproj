@@ -18,6 +18,9 @@
 		B5251D701F6DCCA7007434C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5251D6E1F6DCCA7007434C7 /* LaunchScreen.storyboard */; };
 		B5251D7B1F6DCCA7007434C7 /* Runestone2017ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D7A1F6DCCA7007434C7 /* Runestone2017ObjCTests.m */; };
 		B5251D861F6DCCA7007434C7 /* Runestone2017ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D851F6DCCA7007434C7 /* Runestone2017ObjCUITests.m */; };
+		B5251D9A1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */; };
+		B5251D9B1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */; };
+		B5251D9C1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 		B5251D811F6DCCA7007434C7 /* Runestone2017ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Runestone2017ObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5251D851F6DCCA7007434C7 /* Runestone2017ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runestone2017ObjCUITests.m; sourceTree = "<group>"; };
 		B5251D871F6DCCA7007434C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5251D981F6EB3D7007434C7 /* MenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuMainViewController.h; sourceTree = "<group>"; };
+		B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,8 @@
 				B5251D641F6DCCA7007434C7 /* GameScene.m */,
 				B5251D661F6DCCA7007434C7 /* GameViewController.h */,
 				B5251D671F6DCCA7007434C7 /* GameViewController.m */,
+				B5251D981F6EB3D7007434C7 /* MenuMainViewController.h */,
+				B5251D991F6EB3D7007434C7 /* MenuMainViewController.m */,
 				B5251D691F6DCCA7007434C7 /* Main.storyboard */,
 				B5251D6C1F6DCCA7007434C7 /* Assets.xcassets */,
 				B5251D6E1F6DCCA7007434C7 /* LaunchScreen.storyboard */,
@@ -288,6 +295,7 @@
 			files = (
 				B5251D681F6DCCA7007434C7 /* GameViewController.m in Sources */,
 				B5251D5E1F6DCCA7007434C7 /* AppDelegate.m in Sources */,
+				B5251D9A1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B5251D651F6DCCA7007434C7 /* GameScene.m in Sources */,
 				B5251D5B1F6DCCA7007434C7 /* main.m in Sources */,
 			);
@@ -297,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251D9B1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B5251D7B1F6DCCA7007434C7 /* Runestone2017ObjCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5251D9C1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B5251D861F6DCCA7007434C7 /* Runestone2017ObjCUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +535,7 @@
 				B5251D8C1F6DCCA7007434C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5251D8D1F6DCCA7007434C7 /* Build configuration list for PBXNativeTarget "Runestone2017ObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +544,7 @@
 				B5251D8F1F6DCCA7007434C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5251D901F6DCCA7007434C7 /* Build configuration list for PBXNativeTarget "Runestone2017ObjCUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +553,7 @@
 				B5251D921F6DCCA7007434C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
