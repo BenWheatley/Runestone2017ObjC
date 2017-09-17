@@ -266,7 +266,7 @@
                                 <rect key="frame" x="16" y="28" width="343" height="619"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Code &amp; Graphics &amp;">
+                                    <fragment content="Code, Graphics, and">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="0.78325892857142854" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="26.666666030883789" name="Times-Bold"/>
