@@ -4,13 +4,17 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "812CE698EE51E923234106C4DCB2AC222086399D" : 9223372036854775807,
-    "060F826BB2BEC5FDF5C26A7B410E9C220417BA85" : 9223372036854775807
+    "060F826BB2BEC5FDF5C26A7B410E9C220417BA85" : 9223372036854775807,
+    "2AAC780A68B5223B377CF358B3BA0A113EF9A8E2" : 9223372036854775807,
+    "698114AE07CF42A07851919F6E436B17C00690E8" : 9223372036854775807,
+    "812CE698EE51E923234106C4DCB2AC222086399D" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "98E3CDE6-0CEC-4AA7-84C0-E5703C6E4D64",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "812CE698EE51E923234106C4DCB2AC222086399D" : "Runestone2017ObjC\/",
-    "060F826BB2BEC5FDF5C26A7B410E9C220417BA85" : "..\/Business\/ObjC%20codebase\/KitsuneStandardLibrary"
+    "060F826BB2BEC5FDF5C26A7B410E9C220417BA85" : "..\/Business\/ObjC%20codebase\/KitsuneStandardLibrary",
+    "2AAC780A68B5223B377CF358B3BA0A113EF9A8E2" : "..\/Business\/Swift%20codebase\/KitsuneSwiftLibrary",
+    "698114AE07CF42A07851919F6E436B17C00690E8" : "Runestone\/",
+    "812CE698EE51E923234106C4DCB2AC222086399D" : "Runestone2017ObjC\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Runestone2017ObjC",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +24,16 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BenWheatley\/KitsuneStandardLibrary.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "060F826BB2BEC5FDF5C26A7B410E9C220417BA85"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BenWheatley\/KitsuneSwiftLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2AAC780A68B5223B377CF358B3BA0A113EF9A8E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BenWheatley\/Runestone-in-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "698114AE07CF42A07851919F6E436B17C00690E8"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BenWheatley\/Runestone2017ObjC.git",
