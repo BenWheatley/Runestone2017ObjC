@@ -7,65 +7,87 @@
 //
 
 #import "GameScene.h"
+#import "KitsuneStandardLibrary.h"
+
+const CGFloat TILE_WIDTH = 0.1;
+const CGFloat TILE_HEIGHT = 0.1;
+const CGFloat TILE_SCALE = 0.002;
 
 @implementation GameScene {
-    NSTimeInterval _lastUpdateTime;
-    SKShapeNode *_spinnyNode;
-    SKLabelNode *_label;
+    NSTimeInterval lastUpdateTime;
+    SKLabelNode *lblTiles, *lblRemainingMoves;
+	
+	GameModel *gameModel;
 }
 
 - (void)sceneDidLoad {
     // Setup your scene here
     
     // Initialize update time
-    _lastUpdateTime = 0;
+    lastUpdateTime = 0;
     
-    // Get label node from scene and store it for use later
-    _label = (SKLabelNode *)[self childNodeWithName:@"//helloLabel"];
-    
-    _label.alpha = 0.0;
-    [_label runAction:[SKAction fadeInWithDuration:2.0]];
-    
-    CGFloat w = (self.size.width + self.size.height) * 0.05;
-    
-    // Create shape node to use during mouse interaction
-    _spinnyNode = [SKShapeNode shapeNodeWithRectOfSize:CGSizeMake(w, w) cornerRadius:w * 0.3];
-    _spinnyNode.lineWidth = 2.5;
-    
-    [_spinnyNode runAction:[SKAction repeatActionForever:[SKAction rotateByAngle:M_PI duration:1]]];
-    [_spinnyNode runAction:[SKAction sequence:@[
-                                                [SKAction waitForDuration:0.5],
-                                                [SKAction fadeOutWithDuration:0.5],
-                                                [SKAction removeFromParent],
-                                                ]]];
+	[self hardResetGameModel: GameSizeSmallest];
+	
+	lblTiles = [SKLabelNode labelNodeWithText:nil];
+	lblRemainingMoves = [SKLabelNode labelNodeWithText:nil];
+	for (SKLabelNode *label in @[lblTiles, lblRemainingMoves]) {
+		[label removeFromParent];
+		label.color = UIColor.whiteColor;
+		[label setScale:TILE_SCALE];
+		[self addChild:label];
+	}
+	lblTiles.position = CGPointMake(0, -0.4);
+	lblRemainingMoves.position = CGPointMake(0, -0.45);
 }
 
+- (void) hardResetGameModel:(GameSize)gameSize {
+	for (Tile *t in gameModel.tiles) {
+		[t removeFromParent];
+	}
+
+	gameModel = [[GameModel alloc] initWithSize:gameSize];
+	CGFloat xOffset = (gameModel.width-1)/2.0;
+	CGFloat yOffset = (gameModel.height-1)/2.0;
+
+	for (Tile *tile in gameModel.tiles) {
+		IF_LET(Int2DPosition, pos, tile.realPosition, {
+			[tile removeFromParent];
+			tile.position = CGPointMake(TILE_WIDTH*(pos.x-xOffset),
+										TILE_HEIGHT*(pos.y-yOffset)	);
+			[tile setScale:TILE_SCALE];
+			[self addChild:tile];
+		})
+	}
+}
 
 - (void)touchDownAtPoint:(CGPoint)pos {
-    SKShapeNode *n = [_spinnyNode copy];
-    n.position = pos;
-    n.strokeColor = [SKColor greenColor];
-    [self addChild:n];
+	NSArray<SKNode*> *touchedNodes = [self nodesAtPoint:pos];
+	
+	// Make the touched nodes bounce, mark them as selected and tint them red so the user knows what's up
+	for (SKNode *node in touchedNodes) {
+		IF_LET(Tile, tile, node, {
+			SKAction *scale = [SKAction scaleBy: 1.2 duration: 0.15];
+			SKAction *action = ([SKAction sequence:@[scale, scale.reversedAction]]);
+			[tile runAction:action];
+			tile.highlighted = !tile.highlighted;
+			if (tile.highlighted) {
+				gameModel.currentSelection = [gameModel.currentSelection arrayByAddingObject:tile];
+			} else {
+				[gameModel deselectWithTile:tile];
+			}
+		})
+	}
+	
+	[gameModel processUserActions];
 }
 
 - (void)touchMovedToPoint:(CGPoint)pos {
-    SKShapeNode *n = [_spinnyNode copy];
-    n.position = pos;
-    n.strokeColor = [SKColor blueColor];
-    [self addChild:n];
 }
 
 - (void)touchUpAtPoint:(CGPoint)pos {
-    SKShapeNode *n = [_spinnyNode copy];
-    n.position = pos;
-    n.strokeColor = [SKColor redColor];
-    [self addChild:n];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    // Run 'Pulse' action from 'Actions.sks'
-    [_label runAction:[SKAction actionNamed:@"Pulse"] withKey:@"fadeInOut"];
-    
     for (UITouch *t in touches) {[self touchDownAtPoint:[t locationInNode:self]];}
 }
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
@@ -80,22 +102,33 @@
 
 
 -(void)update:(CFTimeInterval)currentTime {
-    // Called before each frame is rendered
-    
-    // Initialize _lastUpdateTime if it has not already been
-    if (_lastUpdateTime == 0) {
-        _lastUpdateTime = currentTime;
-    }
-    
-    // Calculate time since last update
-    CGFloat dt = currentTime - _lastUpdateTime;
-    
-    // Update entities
-    for (GKEntity *entity in self.entities) {
-        [entity updateWithDeltaTime:dt];
-    }
-    
-    _lastUpdateTime = currentTime;
+	// Called before each frame is rendered
+	
+	const NSInteger tileCount = gameModel.tileCount;
+	const NSInteger moveCount = gameModel.remainingMovesCount;
+	lblTiles.text = [NSString stringWithFormat:LocalizedString(@"keyTilesRemaining"), tileCount];
+	lblRemainingMoves.text = [NSString stringWithFormat:LocalizedString(@"keyMovesRemaining"), moveCount];
+	
+	if (tileCount == 0) {
+		[self hardResetGameModel: gameModel.getHarderGameSize];
+	} else if (moveCount == 0) {
+		[self hardResetGameModel: gameModel.getCurrentGameSize];
+	}
+	
+	// Initialize lastUpdateTime if it has not already been
+	if (lastUpdateTime == 0) {
+		lastUpdateTime = currentTime;
+	}
+	
+	// Calculate time since last update
+	const NSTimeInterval dt = currentTime - lastUpdateTime;
+	
+	// Update entities
+	for (GKEntity *entity in self.entities) {
+		[entity updateWithDeltaTime:dt];
+	}
+	
+	lastUpdateTime = currentTime;
 }
 
 @end

@@ -60,6 +60,7 @@
 		B5251DDB1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
 		B5251DDC1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
 		B5251DDD1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
+		B566732B1F7E219E0081156C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D641F6DCCA7007434C7 /* GameScene.m */; };
 		B5B499F31F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
 		B5B499F41F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
 		B5B499F51F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
@@ -75,6 +76,12 @@
 		B5B49A181F6FB4FE006C4217 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0E1F6FB4FE006C4217 /* README.md */; };
 		B5B49A191F6FB4FE006C4217 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0E1F6FB4FE006C4217 /* README.md */; };
 		B5B49A1A1F6FB4FE006C4217 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0E1F6FB4FE006C4217 /* README.md */; };
+		B5B49A331F6FB9F6006C4217 /* Int2DPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */; };
+		B5B49A341F6FB9F6006C4217 /* Int2DPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */; };
+		B5B49A351F6FB9F6006C4217 /* Int2DPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */; };
+		B5B49A361F6FB9F6006C4217 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2E1F6FB9F6006C4217 /* Tile.swift */; };
+		B5B49A371F6FB9F6006C4217 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2E1F6FB9F6006C4217 /* Tile.swift */; };
+		B5B49A381F6FB9F6006C4217 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2E1F6FB9F6006C4217 /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +139,22 @@
 		B5251DD21F6F2643007434C7 /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
 		B5251DD61F6F2854007434C7 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
 		B5251DDA1F6F2870007434C7 /* MagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicParticle.sks; sourceTree = "<group>"; };
+		B566732E1F7E85FF0081156C /* KSSparkLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSparkLine.h; sourceTree = "<group>"; };
+		B566732F1F7E85FF0081156C /* KSSparkLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSparkLine.m; sourceTree = "<group>"; };
+		B56673301F7E85FF0081156C /* UIColor+KSColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+KSColor.h"; sourceTree = "<group>"; };
+		B56673311F7E85FF0081156C /* UIColor+KSColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KSColor.m"; sourceTree = "<group>"; };
+		B56673321F7E85FF0081156C /* KitsuneStandardLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitsuneStandardLibrary.h; sourceTree = "<group>"; };
+		B56673331F7E85FF0081156C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B56673341F7E85FF0081156C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B56673361F7E85FF0081156C /* KSSKMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSKMenu.h; sourceTree = "<group>"; };
+		B56673371F7E85FF0081156C /* KSSKMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSKMenu.m; sourceTree = "<group>"; };
+		B56673381F7E85FF0081156C /* KSSKMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSKMenuItem.h; sourceTree = "<group>"; };
+		B56673391F7E85FF0081156C /* KSSKMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSKMenuItem.m; sourceTree = "<group>"; };
+		B566733B1F7E85FF0081156C /* IntuitiveRandom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IntuitiveRandom.c; sourceTree = "<group>"; };
+		B566733C1F7E85FF0081156C /* IntuitiveRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntuitiveRandom.h; sourceTree = "<group>"; };
+		B566733D1F7E85FF0081156C /* KSArrayUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSArrayUtil.h; sourceTree = "<group>"; };
+		B566733E1F7E85FF0081156C /* KSArrayUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSArrayUtil.m; sourceTree = "<group>"; };
+		B566733F1F7E85FF0081156C /* KSIntegerCoordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSIntegerCoordinate.h; sourceTree = "<group>"; };
 		B5B499F21F6FB1CB006C4217 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameModel.swift; path = ../../../Runestone/Runestone/GameModel.swift; sourceTree = "<group>"; };
 		B5B499F61F6FB232006C4217 /* Runestone2017ObjC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runestone2017ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5B499F71F6FB284006C4217 /* Runestone2017ObjCTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runestone2017ObjCTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -140,6 +163,8 @@
 		B5B49A0C1F6FB4FE006C4217 /* KSStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSStringExtensions.swift; sourceTree = "<group>"; };
 		B5B49A0D1F6FB4FE006C4217 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B5B49A0E1F6FB4FE006C4217 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Int2DPosition.swift; path = ../../../Runestone/Runestone/Int2DPosition.swift; sourceTree = "<group>"; };
+		B5B49A2E1F6FB9F6006C4217 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = ../../../Runestone/Runestone/Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +215,7 @@
 		B5251D581F6DCCA7007434C7 /* Runestone2017ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				B566732C1F7E85FF0081156C /* KitsuneStandardLibrary */,
 				B5B49A0A1F6FB4FE006C4217 /* KitsuneSwiftLibrary */,
 				B5251DDE1F6FAEAE007434C7 /* Swift Game Engine */,
 				B5251D5C1F6DCCA7007434C7 /* AppDelegate.h */,
@@ -264,11 +290,61 @@
 			isa = PBXGroup;
 			children = (
 				B5B499F21F6FB1CB006C4217 /* GameModel.swift */,
+				B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */,
+				B5B49A2E1F6FB9F6006C4217 /* Tile.swift */,
 				B5B499F61F6FB232006C4217 /* Runestone2017ObjC-Bridging-Header.h */,
 				B5B499F71F6FB284006C4217 /* Runestone2017ObjCTests-Bridging-Header.h */,
 				B5B499F81F6FB28A006C4217 /* Runestone2017ObjCUITests-Bridging-Header.h */,
 			);
 			name = "Swift Game Engine";
+			sourceTree = "<group>";
+		};
+		B566732C1F7E85FF0081156C /* KitsuneStandardLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B566732D1F7E85FF0081156C /* Graphics */,
+				B56673321F7E85FF0081156C /* KitsuneStandardLibrary.h */,
+				B56673331F7E85FF0081156C /* LICENSE */,
+				B56673341F7E85FF0081156C /* README.md */,
+				B56673351F7E85FF0081156C /* SpriteKit */,
+				B566733A1F7E85FF0081156C /* Utilities */,
+			);
+			name = KitsuneStandardLibrary;
+			path = "../../../../Business/ObjC codebase/KitsuneStandardLibrary";
+			sourceTree = "<group>";
+		};
+		B566732D1F7E85FF0081156C /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B566732E1F7E85FF0081156C /* KSSparkLine.h */,
+				B566732F1F7E85FF0081156C /* KSSparkLine.m */,
+				B56673301F7E85FF0081156C /* UIColor+KSColor.h */,
+				B56673311F7E85FF0081156C /* UIColor+KSColor.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		B56673351F7E85FF0081156C /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				B56673361F7E85FF0081156C /* KSSKMenu.h */,
+				B56673371F7E85FF0081156C /* KSSKMenu.m */,
+				B56673381F7E85FF0081156C /* KSSKMenuItem.h */,
+				B56673391F7E85FF0081156C /* KSSKMenuItem.m */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		B566733A1F7E85FF0081156C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B566733B1F7E85FF0081156C /* IntuitiveRandom.c */,
+				B566733C1F7E85FF0081156C /* IntuitiveRandom.h */,
+				B566733D1F7E85FF0081156C /* KSArrayUtil.h */,
+				B566733E1F7E85FF0081156C /* KSArrayUtil.m */,
+				B566733F1F7E85FF0081156C /* KSIntegerCoordinate.h */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		B5B49A0A1F6FB4FE006C4217 /* KitsuneSwiftLibrary */ = {
@@ -351,7 +427,7 @@
 					B5251D551F6DCCA7007434C7 = {
 						CreatedOnToolsVersion = 8.3.3;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B5251D751F6DCCA7007434C7 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -460,9 +536,11 @@
 				B5B49A121F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */,
 				B5251D9F1F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D681F6DCCA7007434C7 /* GameViewController.m in Sources */,
+				B5B49A361F6FB9F6006C4217 /* Tile.swift in Sources */,
 				B5251DCF1F6F0909007434C7 /* MenuCreditsViewController.m in Sources */,
 				B5251D5E1F6DCCA7007434C7 /* AppDelegate.m in Sources */,
 				B5251D9A1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
+				B5B49A331F6FB9F6006C4217 /* Int2DPosition.swift in Sources */,
 				B5B49A0F1F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */,
 				B5B499F31F6FB1CB006C4217 /* GameModel.swift in Sources */,
 				B5251D651F6DCCA7007434C7 /* GameScene.m in Sources */,
@@ -480,8 +558,10 @@
 				B5251DA01F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D9B1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B5251D7B1F6DCCA7007434C7 /* Runestone2017ObjCTests.m in Sources */,
+				B5B49A341F6FB9F6006C4217 /* Int2DPosition.swift in Sources */,
 				B5B49A101F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */,
 				B5B49A191F6FB4FE006C4217 /* README.md in Sources */,
+				B5B49A371F6FB9F6006C4217 /* Tile.swift in Sources */,
 				B5B49A131F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,9 +574,12 @@
 				B5251DD11F6F0909007434C7 /* MenuCreditsViewController.m in Sources */,
 				B5251DA11F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D9C1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
+				B566732B1F7E219E0081156C /* GameScene.m in Sources */,
 				B5251D861F6DCCA7007434C7 /* Runestone2017ObjCUITests.m in Sources */,
+				B5B49A351F6FB9F6006C4217 /* Int2DPosition.swift in Sources */,
 				B5B49A111F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */,
 				B5B49A1A1F6FB4FE006C4217 /* README.md in Sources */,
+				B5B49A381F6FB9F6006C4217 /* Tile.swift in Sources */,
 				B5B49A141F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,11 +718,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Runestone2017ObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kitsunesoftware.Runestone2017ObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runestone2017ObjC/Runestone2017ObjC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -651,11 +737,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Runestone2017ObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kitsunesoftware.Runestone2017ObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runestone2017ObjC/Runestone2017ObjC-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
