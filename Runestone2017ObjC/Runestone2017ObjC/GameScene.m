@@ -34,10 +34,11 @@ const CGFloat TILE_SCALE = 0.002;
 		[label removeFromParent];
 		label.color = UIColor.whiteColor;
 		[label setScale:TILE_SCALE];
+		label.fontSize = 14;
 		[self addChild:label];
 	}
-	lblTiles.position = CGPointMake(0, -0.4);
-	lblRemainingMoves.position = CGPointMake(0, -0.45);
+	lblTiles.position = CGPointMake(0, 0.4);
+	lblRemainingMoves.position = CGPointMake(0, 0.45);
 }
 
 - (void) hardResetGameModel:(GameSize)gameSize {
@@ -69,9 +70,8 @@ const CGFloat TILE_SCALE = 0.002;
 			SKAction *scale = [SKAction scaleBy: 1.2 duration: 0.15];
 			SKAction *action = ([SKAction sequence:@[scale, scale.reversedAction]]);
 			[tile runAction:action];
-			tile.highlighted = !tile.highlighted;
-			if (tile.highlighted) {
-				gameModel.currentSelection = [gameModel.currentSelection arrayByAddingObject:tile];
+			if (!tile.highlighted) {
+				[gameModel selectWithTile:tile];
 			} else {
 				[gameModel deselectWithTile:tile];
 			}

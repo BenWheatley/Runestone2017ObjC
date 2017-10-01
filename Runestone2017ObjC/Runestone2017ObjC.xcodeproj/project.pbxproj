@@ -155,6 +155,7 @@
 		B566733D1F7E85FF0081156C /* KSArrayUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSArrayUtil.h; sourceTree = "<group>"; };
 		B566733E1F7E85FF0081156C /* KSArrayUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSArrayUtil.m; sourceTree = "<group>"; };
 		B566733F1F7E85FF0081156C /* KSIntegerCoordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSIntegerCoordinate.h; sourceTree = "<group>"; };
+		B56673401F805C800081156C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../../../Runestone/Runestone/Localizable.strings; sourceTree = "<group>"; };
 		B5B499F21F6FB1CB006C4217 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameModel.swift; path = ../../../Runestone/Runestone/GameModel.swift; sourceTree = "<group>"; };
 		B5B499F61F6FB232006C4217 /* Runestone2017ObjC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runestone2017ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5B499F71F6FB284006C4217 /* Runestone2017ObjCTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runestone2017ObjCTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -234,6 +235,7 @@
 				B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */,
 				B5251D6C1F6DCCA7007434C7 /* Assets.xcassets */,
 				B5251D6E1F6DCCA7007434C7 /* LaunchScreen.storyboard */,
+				B56673401F805C800081156C /* Localizable.strings */,
 				B5251D711F6DCCA7007434C7 /* Info.plist */,
 				B5251DA71F6ECCED007434C7 /* Instructions-1.png */,
 				B5251DA81F6ECCED007434C7 /* Instructions-2.png */,
