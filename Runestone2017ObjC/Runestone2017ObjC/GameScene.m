@@ -106,8 +106,8 @@ const CGFloat TILE_SCALE = 0.002;
 	
 	const NSInteger tileCount = gameModel.tileCount;
 	const NSInteger moveCount = gameModel.remainingMovesCount;
-	lblTiles.text = [NSString stringWithFormat:LocalizedString(@"keyTilesRemaining"), tileCount];
-	lblRemainingMoves.text = [NSString stringWithFormat:LocalizedString(@"keyMovesRemaining"), moveCount];
+	lblTiles.text = [NSString stringWithFormat:LocalizedString(@"keyTilesRemaining"), @(tileCount).stringValue];
+	lblRemainingMoves.text = [NSString stringWithFormat:LocalizedString(@"keyMovesRemaining"), @(moveCount).stringValue];
 	
 	if (tileCount == 0) {
 		[self hardResetGameModel: gameModel.getHarderGameSize];

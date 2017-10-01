@@ -61,6 +61,9 @@
 		B5251DDC1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
 		B5251DDD1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
 		B566732B1F7E219E0081156C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D641F6DCCA7007434C7 /* GameScene.m */; };
+		B56673411F81897A0081156C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56673401F805C800081156C /* Localizable.strings */; };
+		B56673421F81897E0081156C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56673401F805C800081156C /* Localizable.strings */; };
+		B56673431F81897F0081156C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56673401F805C800081156C /* Localizable.strings */; };
 		B5B499F31F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
 		B5B499F41F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
 		B5B499F51F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
@@ -483,6 +486,7 @@
 				B5251DD31F6F2643007434C7 /* SparkParticle.sks in Resources */,
 				B5251DBA1F6ECCED007434C7 /* Instructions-4.png in Resources */,
 				B5251DB71F6ECCED007434C7 /* Instructions-3.png in Resources */,
+				B56673411F81897A0081156C /* Localizable.strings in Resources */,
 				B5251D701F6DCCA7007434C7 /* LaunchScreen.storyboard in Resources */,
 				B5251DB41F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
 				B5251DCA1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
@@ -503,6 +507,7 @@
 				B5B49A161F6FB4FE006C4217 /* LICENSE in Resources */,
 				B5251DCB1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
 				B5251DD81F6F2854007434C7 /* FireParticle.sks in Resources */,
+				B56673421F81897E0081156C /* Localizable.strings in Resources */,
 				B5251DD41F6F2643007434C7 /* SparkParticle.sks in Resources */,
 				B5251DDC1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251DB51F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
@@ -522,6 +527,7 @@
 				B5B49A171F6FB4FE006C4217 /* LICENSE in Resources */,
 				B5251DCC1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
 				B5251DD91F6F2854007434C7 /* FireParticle.sks in Resources */,
+				B56673431F81897F0081156C /* Localizable.strings in Resources */,
 				B5251DD51F6F2643007434C7 /* SparkParticle.sks in Resources */,
 				B5251DDD1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251DB61F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
