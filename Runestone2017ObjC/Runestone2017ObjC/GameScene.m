@@ -131,4 +131,14 @@ const CGFloat TILE_SCALE = 0.002;
 	lastUpdateTime = currentTime;
 }
 
+- (void)hint {
+	
+}
+- (void)zap {
+	
+}
+- (void)cheat {
+	
+}
+
 @end

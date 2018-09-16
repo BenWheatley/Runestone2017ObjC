@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Orq-OM-uDz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Orq-OM-uDz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,7 +32,7 @@
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="29" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-N3-aqO">
-                                <rect key="frame" x="108" y="229" width="159" height="290"/>
+                                <rect key="frame" x="108" y="239.5" width="159" height="290"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="159" id="SpM-lZ-tXP"/>
@@ -228,9 +228,9 @@
                             <constraint firstItem="oDT-Bk-cRH" firstAttribute="centerX" secondItem="WHc-N3-aqO" secondAttribute="centerX" id="Vgx-L2-T9R"/>
                             <constraint firstItem="oDT-Bk-cRH" firstAttribute="top" relation="greaterThanOrEqual" secondItem="1QD-sz-hrV" secondAttribute="bottom" id="dXv-f8-9RP"/>
                             <constraint firstItem="ZjY-uY-vWR" firstAttribute="top" secondItem="vgk-ho-ETY" secondAttribute="top" id="eji-pq-8g3"/>
+                            <constraint firstItem="WHc-N3-aqO" firstAttribute="centerY" secondItem="oDT-Bk-cRH" secondAttribute="centerY" id="l5g-Zu-B6k"/>
                             <constraint firstItem="ZjY-uY-vWR" firstAttribute="leading" secondItem="oDT-Bk-cRH" secondAttribute="leading" id="sP9-YE-dGN"/>
                             <constraint firstItem="ZjY-uY-vWR" firstAttribute="trailing" secondItem="oDT-Bk-cRH" secondAttribute="trailing" id="tCq-KM-1Lp"/>
-                            <constraint firstItem="Pph-wv-FZb" firstAttribute="top" secondItem="WHc-N3-aqO" secondAttribute="bottom" constant="148" id="uHf-NX-z6S"/>
                         </constraints>
                     </view>
                     <connections>
@@ -814,20 +814,33 @@ Cg
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Button backgrounds" translatesAutoresizingMaskIntoConstraints="NO" id="NcZ-G1-FWm">
                                 <rect key="frame" x="0.0" y="571" width="375" height="96"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="-3" translatesAutoresizingMaskIntoConstraints="NO" id="xh9-0W-Gu5">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xh9-0W-Gu5">
                                 <rect key="frame" x="0.0" y="571" width="375" height="96"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vI0-AN-RX5" userLabel="Hint">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="96"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="96"/>
                                         <state key="normal" image="button hint up"/>
+                                        <connections>
+                                            <action selector="hint:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Ktd-jh-gSn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SF-lZ-6rE" userLabel="Zap">
-                                        <rect key="frame" x="124.5" y="0.0" width="128" height="96"/>
+                                        <rect key="frame" x="94" y="0.0" width="93.5" height="96"/>
                                         <state key="normal" image="button zap up"/>
+                                        <connections>
+                                            <action selector="zap:" destination="BV1-FR-VrT" eventType="touchUpInside" id="JtG-nJ-ZqR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sj-jh-mqp" userLabel="Cheat">
-                                        <rect key="frame" x="249.5" y="0.0" width="125.5" height="96"/>
+                                        <rect key="frame" x="187.5" y="0.0" width="94" height="96"/>
                                         <state key="normal" image="button cheat up"/>
+                                        <connections>
+                                            <action selector="cheat:" destination="BV1-FR-VrT" eventType="touchUpInside" id="bVY-Nm-rdh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBd-6w-YbF" userLabel="Pause">
+                                        <rect key="frame" x="281.5" y="0.0" width="93.5" height="96"/>
+                                        <state key="normal" image="button pause up"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -855,6 +868,7 @@ Cg
         <image name="MenuBackgroundLayer1" width="384" height="512"/>
         <image name="button cheat up" width="96" height="96"/>
         <image name="button hint up" width="96" height="96"/>
+        <image name="button pause up" width="96" height="96"/>
         <image name="button zap up" width="96" height="96"/>
     </resources>
 </document>

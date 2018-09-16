@@ -16,5 +16,8 @@
 @property (nonatomic) NSMutableDictionary<NSString*, GKGraph *> *graphs;
 
 - (void)hardResetGameModel:(GameSize)gameSize;
+- (void)hint;
+- (void)zap;
+- (void)cheat;
 
 @end

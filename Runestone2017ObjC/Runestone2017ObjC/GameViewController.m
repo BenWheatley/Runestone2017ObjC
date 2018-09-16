@@ -9,7 +9,9 @@
 #import "GameViewController.h"
 #import "GameScene.h"
 
-@implementation GameViewController
+@implementation GameViewController {
+	GameScene *sceneNode;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -19,7 +21,7 @@
     GKScene *scene = [GKScene sceneWithFileNamed:@"GameScene"];
     
     // Get the SKScene from the loaded GKScene
-    GameScene *sceneNode = (GameScene *)scene.rootNode;
+    sceneNode = (GameScene *)scene.rootNode;
     
     // Copy gameplay related content over to the scene
     sceneNode.entities = [scene.entities mutableCopy];
@@ -57,5 +59,20 @@
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
+
+#pragma mark - UX
+
+- (IBAction)hint:(id)sender {
+	[sceneNode hint];
+}
+
+- (IBAction)zap:(id)sender {
+	[sceneNode zap];
+}
+
+- (IBAction)cheat:(id)sender {
+	[sceneNode cheat];
+}
+
 
 @end
