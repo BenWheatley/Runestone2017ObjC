@@ -21,6 +21,12 @@
     [super viewDidLoad];
 	
 	instructions.contentSize = CGSizeMake(320, 1417); // TODO: do this from interface builder: https://stackoverflow.com/a/10360710/3632488
+    [self configAnalytics];
+    [_analytics scroll:instructions screenName:@"MenuInstructions"];
+}
+
+- (void)configAnalytics {
+    _analytics = [MobioSDK shared];
 }
 
 - (IBAction)close:(id)sender {

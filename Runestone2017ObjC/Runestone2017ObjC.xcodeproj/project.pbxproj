@@ -61,30 +61,7 @@
 		B5251DDC1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
 		B5251DDD1F6F2870007434C7 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5251DDA1F6F2870007434C7 /* MagicParticle.sks */; };
 		B566732B1F7E219E0081156C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5251D641F6DCCA7007434C7 /* GameScene.m */; };
-		B56673411F81897A0081156C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56673401F805C800081156C /* Localizable.strings */; };
-		B56673421F81897E0081156C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56673401F805C800081156C /* Localizable.strings */; };
-		B56673431F81897F0081156C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56673401F805C800081156C /* Localizable.strings */; };
-		B5B499F31F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
-		B5B499F41F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
-		B5B499F51F6FB1CB006C4217 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B499F21F6FB1CB006C4217 /* GameModel.swift */; };
-		B5B49A0F1F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0B1F6FB4FE006C4217 /* KSArrayExtensions.swift */; };
-		B5B49A101F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0B1F6FB4FE006C4217 /* KSArrayExtensions.swift */; };
-		B5B49A111F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0B1F6FB4FE006C4217 /* KSArrayExtensions.swift */; };
-		B5B49A121F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0C1F6FB4FE006C4217 /* KSStringExtensions.swift */; };
-		B5B49A131F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0C1F6FB4FE006C4217 /* KSStringExtensions.swift */; };
-		B5B49A141F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0C1F6FB4FE006C4217 /* KSStringExtensions.swift */; };
-		B5B49A151F6FB4FE006C4217 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5B49A0D1F6FB4FE006C4217 /* LICENSE */; };
-		B5B49A161F6FB4FE006C4217 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5B49A0D1F6FB4FE006C4217 /* LICENSE */; };
-		B5B49A171F6FB4FE006C4217 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5B49A0D1F6FB4FE006C4217 /* LICENSE */; };
-		B5B49A181F6FB4FE006C4217 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0E1F6FB4FE006C4217 /* README.md */; };
-		B5B49A191F6FB4FE006C4217 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0E1F6FB4FE006C4217 /* README.md */; };
-		B5B49A1A1F6FB4FE006C4217 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A0E1F6FB4FE006C4217 /* README.md */; };
-		B5B49A331F6FB9F6006C4217 /* Int2DPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */; };
-		B5B49A341F6FB9F6006C4217 /* Int2DPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */; };
-		B5B49A351F6FB9F6006C4217 /* Int2DPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */; };
-		B5B49A361F6FB9F6006C4217 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2E1F6FB9F6006C4217 /* Tile.swift */; };
-		B5B49A371F6FB9F6006C4217 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2E1F6FB9F6006C4217 /* Tile.swift */; };
-		B5B49A381F6FB9F6006C4217 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B49A2E1F6FB9F6006C4217 /* Tile.swift */; };
+		B85D9133C1E2665F7B01F253 /* Pods_Runestone2017ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E1F6342B22243CB2A02648 /* Pods_Runestone2017ObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +82,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56E1F6342B22243CB2A02648 /* Pods_Runestone2017ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runestone2017ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9EE60A10A9CF4149013346 /* Pods-Runestone2017ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runestone2017ObjC.release.xcconfig"; path = "Target Support Files/Pods-Runestone2017ObjC/Pods-Runestone2017ObjC.release.xcconfig"; sourceTree = "<group>"; };
 		B5251D561F6DCCA7007434C7 /* Runestone2017ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runestone2017ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5251D5A1F6DCCA7007434C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5251D5C1F6DCCA7007434C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,33 +121,10 @@
 		B5251DD21F6F2643007434C7 /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
 		B5251DD61F6F2854007434C7 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
 		B5251DDA1F6F2870007434C7 /* MagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicParticle.sks; sourceTree = "<group>"; };
-		B566732E1F7E85FF0081156C /* KSSparkLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSparkLine.h; sourceTree = "<group>"; };
-		B566732F1F7E85FF0081156C /* KSSparkLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSparkLine.m; sourceTree = "<group>"; };
-		B56673301F7E85FF0081156C /* UIColor+KSColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+KSColor.h"; sourceTree = "<group>"; };
-		B56673311F7E85FF0081156C /* UIColor+KSColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KSColor.m"; sourceTree = "<group>"; };
-		B56673321F7E85FF0081156C /* KitsuneStandardLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitsuneStandardLibrary.h; sourceTree = "<group>"; };
-		B56673331F7E85FF0081156C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B56673341F7E85FF0081156C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B56673361F7E85FF0081156C /* KSSKMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSKMenu.h; sourceTree = "<group>"; };
-		B56673371F7E85FF0081156C /* KSSKMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSKMenu.m; sourceTree = "<group>"; };
-		B56673381F7E85FF0081156C /* KSSKMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSKMenuItem.h; sourceTree = "<group>"; };
-		B56673391F7E85FF0081156C /* KSSKMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSKMenuItem.m; sourceTree = "<group>"; };
-		B566733B1F7E85FF0081156C /* IntuitiveRandom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IntuitiveRandom.c; sourceTree = "<group>"; };
-		B566733C1F7E85FF0081156C /* IntuitiveRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntuitiveRandom.h; sourceTree = "<group>"; };
-		B566733D1F7E85FF0081156C /* KSArrayUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSArrayUtil.h; sourceTree = "<group>"; };
-		B566733E1F7E85FF0081156C /* KSArrayUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSArrayUtil.m; sourceTree = "<group>"; };
-		B566733F1F7E85FF0081156C /* KSIntegerCoordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSIntegerCoordinate.h; sourceTree = "<group>"; };
-		B56673401F805C800081156C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../../../Runestone/Runestone/Localizable.strings; sourceTree = "<group>"; };
-		B5B499F21F6FB1CB006C4217 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameModel.swift; path = ../../../Runestone/Runestone/GameModel.swift; sourceTree = "<group>"; };
 		B5B499F61F6FB232006C4217 /* Runestone2017ObjC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runestone2017ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5B499F71F6FB284006C4217 /* Runestone2017ObjCTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runestone2017ObjCTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5B499F81F6FB28A006C4217 /* Runestone2017ObjCUITests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runestone2017ObjCUITests-Bridging-Header.h"; sourceTree = "<group>"; };
-		B5B49A0B1F6FB4FE006C4217 /* KSArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSArrayExtensions.swift; sourceTree = "<group>"; };
-		B5B49A0C1F6FB4FE006C4217 /* KSStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSStringExtensions.swift; sourceTree = "<group>"; };
-		B5B49A0D1F6FB4FE006C4217 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B5B49A0E1F6FB4FE006C4217 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Int2DPosition.swift; path = ../../../Runestone/Runestone/Int2DPosition.swift; sourceTree = "<group>"; };
-		B5B49A2E1F6FB9F6006C4217 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = ../../../Runestone/Runestone/Tile.swift; sourceTree = "<group>"; };
+		C78011710FACE005B89B42C4 /* Pods-Runestone2017ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runestone2017ObjC.debug.xcconfig"; path = "Target Support Files/Pods-Runestone2017ObjC/Pods-Runestone2017ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85D9133C1E2665F7B01F253 /* Pods_Runestone2017ObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +153,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FAFC08A0DE99648F99C7F0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C78011710FACE005B89B42C4 /* Pods-Runestone2017ObjC.debug.xcconfig */,
+				6B9EE60A10A9CF4149013346 /* Pods-Runestone2017ObjC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2DB9998CA33AE5DD439E28C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E1F6342B22243CB2A02648 /* Pods_Runestone2017ObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5251D4D1F6DCCA7007434C7 = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +178,8 @@
 				B5251D791F6DCCA7007434C7 /* Runestone2017ObjCTests */,
 				B5251D841F6DCCA7007434C7 /* Runestone2017ObjCUITests */,
 				B5251D571F6DCCA7007434C7 /* Products */,
+				1FAFC08A0DE99648F99C7F0C /* Pods */,
+				B2DB9998CA33AE5DD439E28C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,8 +196,6 @@
 		B5251D581F6DCCA7007434C7 /* Runestone2017ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				B566732C1F7E85FF0081156C /* KitsuneStandardLibrary */,
-				B5B49A0A1F6FB4FE006C4217 /* KitsuneSwiftLibrary */,
 				B5251DDE1F6FAEAE007434C7 /* Swift Game Engine */,
 				B5251D5C1F6DCCA7007434C7 /* AppDelegate.h */,
 				B5251D5D1F6DCCA7007434C7 /* AppDelegate.m */,
@@ -238,7 +213,6 @@
 				B5251DC91F6F0370007434C7 /* InstructionsStoryboard.storyboard */,
 				B5251D6C1F6DCCA7007434C7 /* Assets.xcassets */,
 				B5251D6E1F6DCCA7007434C7 /* LaunchScreen.storyboard */,
-				B56673401F805C800081156C /* Localizable.strings */,
 				B5251D711F6DCCA7007434C7 /* Info.plist */,
 				B5251DA71F6ECCED007434C7 /* Instructions-1.png */,
 				B5251DA81F6ECCED007434C7 /* Instructions-2.png */,
@@ -294,74 +268,11 @@
 		B5251DDE1F6FAEAE007434C7 /* Swift Game Engine */ = {
 			isa = PBXGroup;
 			children = (
-				B5B499F21F6FB1CB006C4217 /* GameModel.swift */,
-				B5B49A2D1F6FB9F6006C4217 /* Int2DPosition.swift */,
-				B5B49A2E1F6FB9F6006C4217 /* Tile.swift */,
 				B5B499F61F6FB232006C4217 /* Runestone2017ObjC-Bridging-Header.h */,
 				B5B499F71F6FB284006C4217 /* Runestone2017ObjCTests-Bridging-Header.h */,
 				B5B499F81F6FB28A006C4217 /* Runestone2017ObjCUITests-Bridging-Header.h */,
 			);
 			name = "Swift Game Engine";
-			sourceTree = "<group>";
-		};
-		B566732C1F7E85FF0081156C /* KitsuneStandardLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				B566732D1F7E85FF0081156C /* Graphics */,
-				B56673321F7E85FF0081156C /* KitsuneStandardLibrary.h */,
-				B56673331F7E85FF0081156C /* LICENSE */,
-				B56673341F7E85FF0081156C /* README.md */,
-				B56673351F7E85FF0081156C /* SpriteKit */,
-				B566733A1F7E85FF0081156C /* Utilities */,
-			);
-			name = KitsuneStandardLibrary;
-			path = "../../../../Business/ObjC codebase/KitsuneStandardLibrary";
-			sourceTree = "<group>";
-		};
-		B566732D1F7E85FF0081156C /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				B566732E1F7E85FF0081156C /* KSSparkLine.h */,
-				B566732F1F7E85FF0081156C /* KSSparkLine.m */,
-				B56673301F7E85FF0081156C /* UIColor+KSColor.h */,
-				B56673311F7E85FF0081156C /* UIColor+KSColor.m */,
-			);
-			path = Graphics;
-			sourceTree = "<group>";
-		};
-		B56673351F7E85FF0081156C /* SpriteKit */ = {
-			isa = PBXGroup;
-			children = (
-				B56673361F7E85FF0081156C /* KSSKMenu.h */,
-				B56673371F7E85FF0081156C /* KSSKMenu.m */,
-				B56673381F7E85FF0081156C /* KSSKMenuItem.h */,
-				B56673391F7E85FF0081156C /* KSSKMenuItem.m */,
-			);
-			path = SpriteKit;
-			sourceTree = "<group>";
-		};
-		B566733A1F7E85FF0081156C /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				B566733B1F7E85FF0081156C /* IntuitiveRandom.c */,
-				B566733C1F7E85FF0081156C /* IntuitiveRandom.h */,
-				B566733D1F7E85FF0081156C /* KSArrayUtil.h */,
-				B566733E1F7E85FF0081156C /* KSArrayUtil.m */,
-				B566733F1F7E85FF0081156C /* KSIntegerCoordinate.h */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		B5B49A0A1F6FB4FE006C4217 /* KitsuneSwiftLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				B5B49A0B1F6FB4FE006C4217 /* KSArrayExtensions.swift */,
-				B5B49A0C1F6FB4FE006C4217 /* KSStringExtensions.swift */,
-				B5B49A0D1F6FB4FE006C4217 /* LICENSE */,
-				B5B49A0E1F6FB4FE006C4217 /* README.md */,
-			);
-			name = KitsuneSwiftLibrary;
-			path = "../../../../Business/Swift codebase/KitsuneSwiftLibrary";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5251D8A1F6DCCA7007434C7 /* Build configuration list for PBXNativeTarget "Runestone2017ObjC" */;
 			buildPhases = (
+				A4D6F40E96EF771459167C9A /* [CP] Check Pods Manifest.lock */,
 				B5251D521F6DCCA7007434C7 /* Sources */,
 				B5251D531F6DCCA7007434C7 /* Frameworks */,
 				B5251D541F6DCCA7007434C7 /* Resources */,
+				155A18F8568B1EE3F00B6810 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -426,7 +339,7 @@
 		B5251D4E1F6DCCA7007434C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "Ben Wheatley";
 				TargetAttributes = {
 					B5251D551F6DCCA7007434C7 = {
@@ -450,7 +363,7 @@
 			};
 			buildConfigurationList = B5251D511F6DCCA7007434C7 /* Build configuration list for PBXProject "Runestone2017ObjC" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -481,12 +394,10 @@
 				B5251DDB1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251D601F6DCCA7007434C7 /* GameScene.sks in Resources */,
 				B5251D6D1F6DCCA7007434C7 /* Assets.xcassets in Resources */,
-				B5B49A151F6FB4FE006C4217 /* LICENSE in Resources */,
 				B5251DC01F6ECCED007434C7 /* Instructions-6.png in Resources */,
 				B5251DD31F6F2643007434C7 /* SparkParticle.sks in Resources */,
 				B5251DBA1F6ECCED007434C7 /* Instructions-4.png in Resources */,
 				B5251DB71F6ECCED007434C7 /* Instructions-3.png in Resources */,
-				B56673411F81897A0081156C /* Localizable.strings in Resources */,
 				B5251D701F6DCCA7007434C7 /* LaunchScreen.storyboard in Resources */,
 				B5251DB41F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
 				B5251DCA1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
@@ -504,10 +415,8 @@
 				B5251DB81F6ECCED007434C7 /* Instructions-3.png in Resources */,
 				B5251DAF1F6ECCED007434C7 /* Instructions-1.png in Resources */,
 				B5251DC11F6ECCED007434C7 /* Instructions-6.png in Resources */,
-				B5B49A161F6FB4FE006C4217 /* LICENSE in Resources */,
 				B5251DCB1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
 				B5251DD81F6F2854007434C7 /* FireParticle.sks in Resources */,
-				B56673421F81897E0081156C /* Localizable.strings in Resources */,
 				B5251DD41F6F2643007434C7 /* SparkParticle.sks in Resources */,
 				B5251DDC1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251DB51F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
@@ -524,10 +433,8 @@
 				B5251DB91F6ECCED007434C7 /* Instructions-3.png in Resources */,
 				B5251DB01F6ECCED007434C7 /* Instructions-1.png in Resources */,
 				B5251DC21F6ECCED007434C7 /* Instructions-6.png in Resources */,
-				B5B49A171F6FB4FE006C4217 /* LICENSE in Resources */,
 				B5251DCC1F6F0370007434C7 /* InstructionsStoryboard.storyboard in Resources */,
 				B5251DD91F6F2854007434C7 /* FireParticle.sks in Resources */,
-				B56673431F81897F0081156C /* Localizable.strings in Resources */,
 				B5251DD51F6F2643007434C7 /* SparkParticle.sks in Resources */,
 				B5251DDD1F6F2870007434C7 /* MagicParticle.sks in Resources */,
 				B5251DB61F6ECCED007434C7 /* Instructions-3.5.png in Resources */,
@@ -536,23 +443,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		155A18F8568B1EE3F00B6810 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runestone2017ObjC/Pods-Runestone2017ObjC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MobioSDKSwift/MobioSDKSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobioSDKSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runestone2017ObjC/Pods-Runestone2017ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D6F40E96EF771459167C9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runestone2017ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5251D521F6DCCA7007434C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B49A121F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */,
 				B5251D9F1F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D681F6DCCA7007434C7 /* GameViewController.m in Sources */,
-				B5B49A361F6FB9F6006C4217 /* Tile.swift in Sources */,
 				B5251DCF1F6F0909007434C7 /* MenuCreditsViewController.m in Sources */,
 				B5251D5E1F6DCCA7007434C7 /* AppDelegate.m in Sources */,
 				B5251D9A1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
-				B5B49A331F6FB9F6006C4217 /* Int2DPosition.swift in Sources */,
-				B5B49A0F1F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */,
-				B5B499F31F6FB1CB006C4217 /* GameModel.swift in Sources */,
 				B5251D651F6DCCA7007434C7 /* GameScene.m in Sources */,
-				B5B49A181F6FB4FE006C4217 /* README.md in Sources */,
 				B5251D5B1F6DCCA7007434C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,16 +505,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B499F41F6FB1CB006C4217 /* GameModel.swift in Sources */,
 				B5251DD01F6F0909007434C7 /* MenuCreditsViewController.m in Sources */,
 				B5251DA01F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D9B1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B5251D7B1F6DCCA7007434C7 /* Runestone2017ObjCTests.m in Sources */,
-				B5B49A341F6FB9F6006C4217 /* Int2DPosition.swift in Sources */,
-				B5B49A101F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */,
-				B5B49A191F6FB4FE006C4217 /* README.md in Sources */,
-				B5B49A371F6FB9F6006C4217 /* Tile.swift in Sources */,
-				B5B49A131F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,17 +516,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B499F51F6FB1CB006C4217 /* GameModel.swift in Sources */,
 				B5251DD11F6F0909007434C7 /* MenuCreditsViewController.m in Sources */,
 				B5251DA11F6EBE3F007434C7 /* MenuInstructionsViewController.m in Sources */,
 				B5251D9C1F6EB3D7007434C7 /* MenuMainViewController.m in Sources */,
 				B566732B1F7E219E0081156C /* GameScene.m in Sources */,
 				B5251D861F6DCCA7007434C7 /* Runestone2017ObjCUITests.m in Sources */,
-				B5B49A351F6FB9F6006C4217 /* Int2DPosition.swift in Sources */,
-				B5B49A111F6FB4FE006C4217 /* KSArrayExtensions.swift in Sources */,
-				B5B49A1A1F6FB4FE006C4217 /* README.md in Sources */,
-				B5B49A381F6FB9F6006C4217 /* Tile.swift in Sources */,
-				B5B49A141F6FB4FE006C4217 /* KSStringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,21 +563,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -669,10 +611,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -681,21 +624,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -713,9 +666,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -723,45 +678,46 @@
 		};
 		B5251D8B1F6DCCA7007434C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C78011710FACE005B89B42C4 /* Pods-Runestone2017ObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Runestone2017ObjC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kitsunesoftware.Runestone2017ObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runestone2017ObjC/Runestone2017ObjC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		B5251D8C1F6DCCA7007434C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9EE60A10A9CF4149013346 /* Pods-Runestone2017ObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Runestone2017ObjC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kitsunesoftware.Runestone2017ObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runestone2017ObjC/Runestone2017ObjC-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		B5251D8E1F6DCCA7007434C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Runestone2017ObjCTests/Info.plist;
@@ -778,7 +734,6 @@
 		B5251D8F1F6DCCA7007434C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Runestone2017ObjCTests/Info.plist;
@@ -794,7 +749,6 @@
 		B5251D911F6DCCA7007434C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Runestone2017ObjCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -810,7 +764,6 @@
 		B5251D921F6DCCA7007434C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Runestone2017ObjCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

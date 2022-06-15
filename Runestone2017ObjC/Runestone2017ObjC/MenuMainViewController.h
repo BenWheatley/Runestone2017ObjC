@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobioSDKSwift/MobioSDKSwift-Swift.h>
 
 @interface MenuMainViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) MobioSDK *analytics;
 
 @end

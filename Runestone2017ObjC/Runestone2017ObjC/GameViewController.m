@@ -60,19 +60,6 @@
     return YES;
 }
 
-#pragma mark - UX
-
-- (IBAction)hint:(id)sender {
-	[sceneNode hint];
-}
-
-- (IBAction)zap:(id)sender {
-	[sceneNode zap];
-}
-
-- (IBAction)cheat:(id)sender {
-	[sceneNode cheat];
-}
 
 
 @end

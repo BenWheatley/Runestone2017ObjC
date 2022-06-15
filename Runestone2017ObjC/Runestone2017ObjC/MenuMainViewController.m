@@ -18,12 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self configAnalytics];
+    [self configScreen];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// MARK: - Setup data
+- (void)configAnalytics {
+    _analytics = [MobioSDK shared];
+}
+
+- (void)configScreen {
+    NSArray *array = [NSArray new];
+    [self addBehaviors:array];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

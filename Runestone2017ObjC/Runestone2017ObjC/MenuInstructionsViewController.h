@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobioSDKSwift/MobioSDKSwift-Swift.h>
+
 
 @interface MenuInstructionsViewController : UIViewController <UIScrollViewDelegate>
+@property (strong, nonatomic) MobioSDK *analytics;
 
 @end
